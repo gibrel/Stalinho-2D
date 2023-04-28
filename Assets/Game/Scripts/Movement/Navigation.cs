@@ -46,7 +46,6 @@ namespace Stalinho2D.Movement
             }
             else
             {
-
                 position.x = destinationPoint.x;
                 position.y = destinationPoint.y;
             }
@@ -54,5 +53,4 @@ namespace Stalinho2D.Movement
             navMeshAgent.SetDestination(position);
         }
     }
-
 }
